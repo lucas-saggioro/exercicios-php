@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<body>
+    <h1> Exercício 18 <h1>
+   
+<?php
+    $banco = array(
+        0 => array(
+            'ID'  => '1',
+            'Nome' => 'Teclado Dell',
+            'Valor'=> 150.89
+        ),
+        
+
+
+
+
+
+
+
+
+  1 => array(
+            'ID'  => '2',
+            'Nome' =>  'Mouse Dell',
+            'Valor' =>  58.9
+        ),
+        2 => array(
+            'ID'  => '3',
+            'Nome' => 'Monitor LG',
+            'Valor' => 900
+        ),
+        3 => array(
+            'ID'  => '4',
+            'Nome' => 'Ar Condicionado',
+            'Valor'=> '1999.99'
+        )
+    );
+    var_dump($banco, true);
+?>
+
+
+</body>
+</html>
